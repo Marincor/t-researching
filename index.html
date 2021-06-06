@@ -19,12 +19,60 @@
         <div class="showcase"></div>
         <main>
             
-           
             <section class="tituloprincipal">
                 Formulário de pesquisa - Filmes
             </section>
 
+            <form class="formulariofilmes">
+                <fieldset class="contato">
+                    
+                    <label for="camponome">Nome</label>
+                    <input type="text" id="camponome" name="contato" placeholder="Entre com seu nome">
 
+                    <label for="campoemail">Email</label>
+                    <input type="email" name="contato" id="campoemail" placeholder="seuemail@dominio.com">
+
+                    <label for="campoidade">Idade (opcional)</label>
+                    <input type="number" name="contato" id="campoidade" min="15" placeholder="Idade">  
+
+                </fieldset> 
+                <fieldset class="genre">
+                        <Legend>Qual gênero de filme é seu favorito?</Legend>
+                        <select name="generofilme" id="genero" aria-placeholder="selecione uma opção">
+                            <option value="ação">ação</option>
+                            <option value="drama">drama</option>
+                            <option value="comédia">comédia</option>
+                            <option value="terror">terror</option>
+                            <option value="romance">romance</option>
+                        </select>
+                </fieldset>
+
+                <fieldset class="quantidade">
+                    <legend>Quantos filmes por mês costuma ver?</legend>
+                    <label for="nenhum"><input type="radio" id="nenhum" name="filmesvistos" >Nenhum -  não vejo filmes
+                    </label>
+                    <label for="umadois"><input type="radio" id="umadois"name="filmesvistos">1 ~ 2 filmes 
+                    </label>
+                    <label for="maisfilmes"><input type="radio" name="filmesvistos" id="maisfilmes">
+                    3 ou mais filmes</label>
+                </fieldset>
+                <fieldset class="cultura">
+                    <legend>Quais opções abaixo você realiza ou gostaria de realizar todo mês?</legend>
+                    <label for="cinemaop"><input type="checkbox" name="culturaop" id="cinemaop">Ir ao cinema</label>
+                    <label for="teatroop"><input type="checkbox" name="culturaop" id="teatroop">Ir ao teatro</label>
+                    <label for="arteop"><input type="checkbox" name="culturaop" id="arteop">Ir à exposições de arte</label>
+                </fieldset>
+                <fieldset class="coment">
+                    <legend>Algum comentário ou sugestão?</legend>
+                    <textarea name="comentário" id="comentary" cols="70" rows="10" placeholder="Preencha seu comentário aqui..."></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" name="enviar" class="botaoenviar" value="Enviar formulário">
+
+                </fieldset>
+
+            </form>
 
 
 

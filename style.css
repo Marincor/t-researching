@@ -1,0 +1,22 @@
+header {
+  background: rgb(63, 63, 122);
+  font-family: "Share Tech", sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  color: white;
+  
+}
+
+header:hover {
+  text-shadow: 2px 3px 10px blueviolet;
+}
+
+.titulocabecalho {
+    padding: 0 10px 0 10px ;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    display: inline;
+}

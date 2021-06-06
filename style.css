@@ -20,3 +20,37 @@ header:hover {
     border-left: 2px solid white;
     display: inline;
 }
+
+.showcase {
+    background: url("cinema.png") center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(148, 121, 197, 0.3);
+    background-blend-mode: color-burn;
+    ;
+    
+    }
+    
+main {
+    
+     width: 940px;
+     margin: 0 auto;
+     position: absolute;
+     top: 20%;
+     bottom: auto;
+     right: 15%;
+     left: 15%;
+     text-align: center;
+
+}
+
+.tituloprincipal {
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 500;
+}

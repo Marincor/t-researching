@@ -63,7 +63,7 @@ form {
     width: 800px;
     border-radius: 2%;
     font-family: sans-serif;
-    background-image: linear-gradient(to bottom, rgb(100, 45, 117) , rgb(60, 80, 117));
+    background-image: linear-gradient(to bottom, rgb(63,63,122) , rgb(101, 1, 126));
 }
 
 
@@ -95,7 +95,7 @@ fieldset {
     border-radius: 6%;
     font-size: 15px;
     color: darkgray;
-
+    margin-top: 10px;
     
 }
 
@@ -122,7 +122,7 @@ color: white;
 .genre legend {
     font-weight: bold;
     color: white;
-    
+    margin-bottom: 10px;
    
 }
 
@@ -135,6 +135,7 @@ color: white;
     text-transform: capitalize;
     font-size: 15px;
     color: darkgray;
+    margin-bottom: 30px;
 
 }
 

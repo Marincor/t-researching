@@ -67,7 +67,6 @@ form {
 }
 
 
-}
 
 fieldset {
 
@@ -81,10 +80,11 @@ fieldset {
     align-items: flex-start;
     font-size: 20px;
     width: 60%;
+    
 }
 
 .contato input, label {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 10px;
 }
     
@@ -107,12 +107,11 @@ color: white;
 }
 
 .genre{ 
-    margin-top: 30px;
+    margin-top: 10px;
     width: 60%;
     padding-left: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: ;
     text-align: left;
     font-size: 20px;
     
@@ -122,7 +121,7 @@ color: white;
 .genre legend {
     font-weight: bold;
     color: white;
-    margin-bottom: 10px;
+    
    
 }
 
@@ -135,18 +134,16 @@ color: white;
     text-transform: capitalize;
     font-size: 15px;
     color: darkgray;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 
 .quantidade {
 
-    margin-top: 5px;
     width: 60%;
     padding-left: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: ;
     text-align: left;
     font-size: 20px;
 }
@@ -182,14 +179,13 @@ color: white;
 
 .cultura legend {
     display: flex;
-    flex-direction: column;
-    padding-left: 40px;
+    flex-direction: row;
     text-align: left;
-    width: 140%;
+    padding-left: 23px;
     font-weight: bold;
+    margin: 10px 0 10px 0;
     font-size: 20px;
     color: white;
-    margin-bottom: 5px;
 }
 
 
@@ -200,6 +196,7 @@ color: white;
     font-weight: bold;
     font-size: 20px;
     color: darkgray;
+    margin-bottom: 30px;
     
    
     
@@ -217,28 +214,26 @@ color: white;
 .coment {
 
     
-    margin-top: 40px;
+    margin-top: 20px;
     width: 100%;
 }
 
 .coment legend {
     
     display: flex;
-    flex-direction: column;
-    padding-left: 40px;
+    flex-direction: row;
     text-align: left;
-    width: 140%;
-    font-weight: bold;
+    padding-left: 25px;
     font-size: 20px;
     color: white;
-    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .coment textarea {
     margin-top: 10px;
     display:flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 20px;
     padding-left: 10px;
     border-radius: 2%;
     width: 84%;

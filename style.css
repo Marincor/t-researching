@@ -59,8 +59,7 @@ main {
 
 form {
     margin-left: 9%;
- 
-    width: 800px;
+    width: 770px;
     border-radius: 2%;
     font-family: sans-serif;
     background-image: linear-gradient(to bottom, rgb(63,63,122) , rgb(101, 1, 126));

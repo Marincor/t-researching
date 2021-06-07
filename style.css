@@ -139,4 +139,38 @@ color: white;
 
 }
 
+.quantidade {
 
+    margin-top: 5px;
+    width: 60%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    text-align: left;
+    font-size: 20px;
+}
+.quantidade legend {
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.quantidade input {
+
+    background: lightcoral;
+    margin: 10px 0 10px 0;
+    margin-right: 10px
+
+  
+}
+
+.quantidade label {
+    padding-left: ;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-size: 1em;
+    color: darkgray;
+ 
+
+}

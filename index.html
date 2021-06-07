@@ -27,10 +27,10 @@
                 <fieldset class="contato">
                     
                     <label for="camponome">Nome</label>
-                    <input type="text" id="camponome" name="contato" placeholder="Entre com seu nome">
+                    <input type="text" id="camponome" name="contato" placeholder="Entre com seu nome" required>
 
                     <label for="campoemail">Email</label>
-                    <input type="email" name="contato" id="campoemail" placeholder="seuemail@dominio.com">
+                    <input type="email" name="contato" id="campoemail" placeholder="seuemail@dominio.com" required>
 
                     <label for="campoidade">Idade (opcional)</label>
                     <input type="number" name="contato" id="campoidade" min="15" placeholder="Idade">  
@@ -48,7 +48,7 @@
                         </select>
                 </fieldset>
 
-                <fieldset class="quantidade">
+                <fieldset class="quantidade" >
                     <legend>Quantos filmes por mês costuma ver?</legend>
                     <label for="nenhum"><input type="radio" id="nenhum" name="filmesvistos" >Nenhum -  não vejo filmes
                     </label>
@@ -65,10 +65,10 @@
                 </fieldset>
                 <fieldset class="coment">
                     <legend>Algum comentário ou sugestão?</legend>
-                    <textarea name="comentário" id="comentary" cols="70" rows="6" placeholder="Preencha seu comentário aqui..."></textarea>
+                    <textarea name="comentário" id="comentary" cols="70" rows="6" placeholder="Preencha seu comentário aqui..." required></textarea>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="botao">
                     <input type="submit" name="enviar" class="botaoenviar" value="Enviar formulário">
 
                 </fieldset>

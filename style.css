@@ -235,7 +235,7 @@ color: white;
 }
 
 .coment textarea {
-    margin-top: 2px;
+    margin-top: 10px;
     display:flex;
     flex-direction: column;
     margin-left: 40px;
@@ -247,4 +247,29 @@ color: white;
     font-size: 15px;
     color: darkgray;
 
+}
+
+.botao {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 41px;
+}
+
+.botao input {
+
+    width: 92.8%;
+    padding: 20px;
+    border-radius: 2%;
+    background: rgb(44, 41, 41) ;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao input:hover {
+
+    background: rgb(34, 16, 34);
+    box-shadow: -0 0 20px brown;
+    cursor: pointer;
 }

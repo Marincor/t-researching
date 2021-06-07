@@ -166,11 +166,52 @@ color: white;
 }
 
 .quantidade label {
-    padding-left: ;
+
     font-weight: bold;
     margin: 10px 0 10px 0;
     font-size: 1em;
     color: darkgray;
  
+}
 
+.cultura {
+
+  
+  margin-top: 5px;
+
+}
+
+.cultura legend {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    text-align: left;
+    width: 140%;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.cultura label {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgray;
+    
+   
+    
+ 
+}
+
+
+.cultura input {
+  
+  margin-right: 12px;
+
+
+   
 }

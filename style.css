@@ -22,7 +22,7 @@ header:hover {
 
 .showcase {
     background: url("cinema.png") center center/cover;
-    height: 200vh;
+    height: 250vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,3 +267,6 @@ color: white;
     box-shadow: -0 0 20px brown;
     cursor: pointer;
 }
+
+
+
